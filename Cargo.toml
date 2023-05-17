@@ -1,0 +1,28 @@
+[package]
+name = "rconfig"
+version = "0.1.0"
+authors = [
+    "andy-thomason <andy@andythomason.com>",
+    "Thomas Down",
+    "Mossa Merhi Reimert <mossa@sund.ku.dk>",
+    "Claus O. Wilke <wilke@austin.utexas.edu>",
+    "Ilia A. Kosenkov <ilia.kosenkov@outlook.com>",
+    "Hiroaki Yutani",
+    "Balasubramanian Narasimhan <naras@stanford.edu>",
+]
+edition = "2021"
+description = "Queryable configuration information about installed R."
+license = "MIT"
+repository = "https://github.com/bnaras/rconfig"
+
+# Excludes
+exclude = [
+    ".gitignore",
+    ".github/*",
+    "ci-cargo.ps1",
+]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cached = "0.43.0"
